@@ -1,34 +1,48 @@
 # Customer Complaint Analysis Dashboard
 
 ## Overview
-I am thrilled to share my recently developed **Customer Complaint Analysis Dashboard**, which provides **actionable insights** into consumer complaints and company response performance using data from the **Consumer Financial Protection Bureau (CFPB)**.
+This project presents an interactive **Customer Complaint Analysis Dashboard** built using **Microsoft Excel**, leveraging **Pivot Tables, Power Query, and Advanced Formulas** to analyze consumer complaints from the **Consumer Financial Protection Bureau (CFPB)** dataset. The dashboard provides actionable insights into complaint trends, resolution efficiency, and company response performance.
 
-## Key Features
-- **Complaint Trends**: Analyzes complaints by **product, state, and submission method**.
-- **Resolution Insights**: Tracks **average resolution time** and identifies **delayed responses**.
-- **Performance Metrics**: Highlights **KPIs** such as **timely responses** and **top complaint categories**.
-- **Interactive Visualizations**: Features **dynamic slicers, bar charts, and KPIs** to make data analysis seamless and insightful.
+## Key Features & Insights
+- **Total Complaints Analyzed:** **62,516**
+- **Timely Resolved Complaints:** **60,113**
+- **Maximum Resolution Time:** **275 Days**
+- **Average Resolution Time:** **1.22 Days**
+- **Dynamic Filtering:** Includes **two slicers** (Month & State) to enable focused data analysis.
+
+## Dashboard Visualizations
+1. **Submission Medium-wise Complaints**
+   - Web-based complaints are the highest, totaling **45,423**.
+
+2. **Top 5 States by Complaint Volume**
+   - **California** leads with **13,709** complaints.
+
+3. **Month-wise Complaint Distribution**
+   - **July** recorded the highest percentage of complaints (**10.36%** of total complaints).
+
+4. **Company Response to Complaints**
+   - "Closed with Explanation" is the most common response type (**66%** of cases).
+
+5. **Product-wise Complaint Distribution**
+   - **Checking/Savings Account** complaints are the highest, totaling **24,814**.
+
+6. **Product-wise Timely Issue Resolution**
+   - **Credit Card issues** were resolved timely **26%** of the time, the highest among all categories.
 
 ## Tools & Technologies Used
-- **Microsoft Excel** (Data Cleaning, Pivot Tables, Power Query, Advanced Formulas)
-- **Data Visualization** (Dashboards with interactive filters and charts)
-- **Data Storytelling** (Providing meaningful insights for decision-making)
+- **Microsoft Excel** (Pivot Tables, Power Query, Advanced Formulas)
+- **Data Cleaning & Transformation**
+- **Interactive Data Visualization**
 
-## Project Learnings & Impact
-- Improved ability to analyze large datasets and extract meaningful insights.
-- Enhanced skills in **data cleaning, transformation, and visualization**.
-- Strengthened **storytelling with data**, enabling users to make informed, data-driven decisions.
-
-## How to Use
-1. Open the **Excel Dashboard file**.
-2. Use **interactive slicers and filters** to explore complaint trends.
-3. Analyze key performance indicators to assess company response efficiency.
+## Key Learnings
+- Analyzing large datasets for trend identification and actionable insights.
+- Data storytelling using **interactive visualizations**.
+- Optimizing resolution tracking metrics for complaint handling efficiency.
 
 ## Future Enhancements
-- Automating data updates using **Power BI or Python**.
-- Expanding analysis to include **customer sentiment insights** using NLP techniques.
+- **Integration with Power BI** for more advanced visualizations.
+- **Automated data updates** using Power Query and external data sources.
+- **Deeper analysis** on response time trends by company and product type.
 
----
-Feel free to explore the repository, provide feedback, or contribute! 🚀
-
+### 📊 This project showcases my expertise in **data analysis, visualization, and business insights generation**, enabling organizations to improve customer service efficiency based on data-driven decisions.
 
